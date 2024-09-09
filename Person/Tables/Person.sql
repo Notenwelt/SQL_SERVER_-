@@ -1,6 +1,6 @@
 CREATE TABLE [Person].[Person] (
     [BusinessEntityID]      INT                                                           NOT NULL,
-    [PersonType]            NCHAR (2)                                                     NOT NULL,
+    [PersonType]            NCHAR (2git )                                                     NOT NULL,
     [NameStyle]             [dbo].[NameStyle]                                             CONSTRAINT [DF_Person_NameStyle] DEFAULT ((0)) NOT NULL,
     [Title]                 NVARCHAR (8)                                                  NULL,
     [FirstName]             [dbo].[Name]                                                  NOT NULL,
